@@ -393,7 +393,7 @@ while True :
 
                             #Buat tabel histori baru dengan akumulasi stok masuk dan keluar periode input_bulan (bulan awal-akhir)
                             HISTORI_STOK_PERIODE_BULAN = {input_bulan : {   "kode"          : HISTORI_STOK[periode[1]]['kode'],
-                                                                            "nama barang"   : HISTORI_STOK[periode[1]]['nama'],
+                                                                            "nama barang"   : HISTORI_STOK[periode[1]]['nama barang'],
                                                                             "kategori"      : HISTORI_STOK[periode[1]]['kategori'],
                                                                             "harga beli"    : HISTORI_STOK[periode[1]]['harga beli'],
                                                                             "harga jual"    : HISTORI_STOK[periode[1]]['harga jual'],
@@ -657,7 +657,7 @@ while True :
             while True:
                 print("\n")
                 print("----------------MENU HAPUS DATA--------------------- ")
-                print("---ketikkan exit jika ingin kembali ke Menu Utama--- ")
+                print("---ketik exit jika ingin kembali ke Menu Utama--- ")
                 print("\n")
                 kode_to_delete = input("Masukkan kode barang yang ingin dihapus : ")
 
